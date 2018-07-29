@@ -16,6 +16,12 @@
    
   2. There are two zip files of interest. `driver.txt` and `www.com`
 * Running `binwalk -e foo.ico` extracts any recognizable file from `foo.ico`
-  1. This returns 
-
-### Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images.
+  1. Giving us `2FD.zip` `driver.txt` `www.com `
+  2. Reading `driver.txt` using [cat](https://linux.die.net/man/1/cat) `cat driver.txt` gives us the following message
+  ```
+  This is the driver for the Aluminum-Key Hardware password storage device.
+     CTF{qeY80sU6Ktko8BJW}
+```
+In case of emergency, run www.com
+  ```
+  
